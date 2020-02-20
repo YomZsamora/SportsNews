@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlue</item>
+        <item name="colorAccent">@color/colorTextIcons</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:popupMenuStyle">@style/CustomOverflowBack</item>
+    </style>
+
+    <style name="CustomOverflowBack" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/colorPrimaryBlue</item>
+    </style>
+
+</resources>
